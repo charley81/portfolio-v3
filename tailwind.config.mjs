@@ -13,6 +13,12 @@ export default {
     },
     extend: {
       colors: {
+        'custom-dark-grey': 'var(--custom-dark-grey)',
+        'custom-primary': 'var(--custom-primary)',
+        'custom-light': 'var(--custom-light)',
+        'custom-dark': 'var(--custom-dark)',
+        'custom-dark-grey': 'var(--custom-dark-grey)',
+        'custom-light-grey': 'var(--custom-light-grey)',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
