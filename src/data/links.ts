@@ -4,9 +4,6 @@ const mainNavLinks = [
     href: '/'
   },
   {
-    name: 'Blog'
-  },
-  {
     name: 'About',
     href: '/about'
   },
