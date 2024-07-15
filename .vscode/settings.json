@@ -2,7 +2,10 @@
   "cSpell.ignoreWords": [
     "astro",
     "astrojs",
+    "clsx",
+    "lucide",
     "tailwindcss",
-    "tsconfigs"
+    "tsconfigs",
+    "vaul"
   ]
 }
