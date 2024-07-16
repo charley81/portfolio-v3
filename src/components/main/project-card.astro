@@ -1,0 +1,27 @@
+---
+import { Image } from 'astro:assets'
+
+type ProjectCardProps = {
+  title: string
+  image: string
+  description: string
+}
+
+const { title, image, description } = Astro.props
+console.log(image)
+---
+
+<div>
+  <div class="mb-4 leading-7">
+    <Image
+      src={image}
+      alt={title}
+      height="500"
+      width="5000"
+      loading="lazy"
+      class="object-fill"
+    />
+  </div>
+  <h3 class="font-bold text-2xl text-custom-dark-grey mb-1">{title}</h3>
+  <p>{description}</p>
+</div>
