@@ -1,5 +1,7 @@
 ---
 import MainNavigation from '@/components/shared/main-navigation'
+import Footer from '@/components/shared/footer.astro'
+
 interface Props {
   title: string
 }
@@ -8,7 +10,7 @@ const { title } = Astro.props
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
@@ -20,5 +22,6 @@ const { title } = Astro.props
   <body class="text-custom-dark">
     <MainNavigation client:load />
     <slot />
+    <Footer />
   </body>
 </html>
