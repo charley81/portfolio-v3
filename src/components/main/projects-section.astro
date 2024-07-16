@@ -1,0 +1,17 @@
+---
+import projectCardInfo from '@/data/project-card-info'
+import ProjectCard from './project-card.astro'
+---
+
+<section class="mt-40 grid gap-20">
+  {
+    projectCardInfo.map((project) => (
+      <ProjectCard
+        key={project.title}
+        title={project.title}
+        description={project.description}
+        image={project.image}
+      />
+    ))
+  }
+</section>
