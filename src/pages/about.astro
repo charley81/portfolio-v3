@@ -1,10 +1,63 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import '../styles/globals.css'
+import { Image } from 'astro:assets'
+import educationData from '../data/education'
 ---
 
 <Layout title="Welcome to Astro.">
-  <main>
-    <h1 class="text-4xl">About Page</h1>
-  </main>
+  <!-- Info -->
+  <section class="my-20">
+    <h1 class="text-5xl font-bold text-custom-dark-grey mb-10">About Page</h1>
+    <div class="mb-10">
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially
+        unchanged.
+      </p>
+      <br />
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially
+        unchanged.
+      </p>
+      <br />
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially
+        unchanged.
+      </p>
+    </div>
+    <Image
+      src="https://utfs.io/f/341a63a0-a7c6-4959-9450-64904198535c-pia5h.png"
+      width="500"
+      height="500"
+      alt="Picture of Chris Harley"
+    />
+  </section>
+
+  <!-- Education -->
+  <section>
+    <h3 class="text-2xl text-custom-dark-grey font-bold mb-2">Education</h3>
+    <hr class="mb-8" />
+    <ul class="grid gap-8">
+      {
+        educationData.map((item) => (
+          <li>
+            <p class="font-bold">{item.school}</p>
+            <p class="text-xs text-custom-dark-grey">{item.description}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+  <!-- Experience  -->
+  <!-- Skills -->
+  <!-- contact Btn -->
 </Layout>

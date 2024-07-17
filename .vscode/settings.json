@@ -10,6 +10,8 @@
     "tailwindcss",
     "tsconfigs",
     "uploadthing",
+    "uuidv",
     "vaul"
-  ]
+  ],
+  "cSpell.words": ["Berklee", "Scholas"]
 }
