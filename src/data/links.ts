@@ -13,7 +13,7 @@ const mainNavLinks = [
   },
   {
     name: 'Resume',
-    href: '/Chris Harley _ UX Designer.pdf'
+    href: '/chris-harley-resume.pdf'
   }
 ]
 

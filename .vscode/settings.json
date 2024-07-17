@@ -6,8 +6,10 @@
     "astrojs",
     "clsx",
     "lucide",
+    "probabalistically",
     "tailwindcss",
     "tsconfigs",
+    "uploadthing",
     "vaul"
   ]
 }
