@@ -16,9 +16,9 @@ export default function MainNavigation() {
   const isDesktop = useMediaQuery('(min-width: 768px)')
 
   return (
-    <header>
+    <header id="top">
       <div className="w-full">
-        <nav className="flex justify-between items-center mx-auto w-full px-4 py-8 sm:max-w-[628px] md:max-w-[728px] lg:max-w-[1028px]">
+        <nav className="flex justify-between items-center mx-auto w-full py-8">
           <a href="/">
             <img src={logo} alt="Logo" />
           </a>
