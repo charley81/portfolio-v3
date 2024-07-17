@@ -1,10 +1,114 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import '../styles/globals.css'
+import { Image } from 'astro:assets'
+import educationData from '../data/education'
+import experienceData from '../data/experience'
+import { Button } from '@/components/ui/button'
 ---
 
 <Layout title="Welcome to Astro.">
-  <main>
-    <h1 class="text-4xl">About Page</h1>
-  </main>
+  <h1 class="text-5xl font-bold text-custom-dark-grey mb-10 mt-20">
+    About Page
+  </h1>
+
+  <!-- Info -->
+  <section class="lg:grid lg:grid-cols-2 lg:gap-8 mb-20">
+    <div class="mb-10">
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially
+        unchanged.
+      </p>
+      <br />
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially
+        unchanged.
+      </p>
+      <br />
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially
+        unchanged.
+      </p>
+    </div>
+    <div class="w-ful">
+      <Image
+        src="https://utfs.io/f/341a63a0-a7c6-4959-9450-64904198535c-pia5h.png"
+        width="5000"
+        height="500"
+        alt="Picture of Chris Harley"
+        class="object-fill"
+        loading="eager"
+      />
+    </div>
+  </section>
+
+  <div class="lg:w-1/2">
+    <!-- Education -->
+    <section class="mb-20">
+      <h3 class="text-2xl text-custom-dark-grey font-bold mb-2">Education</h3>
+      <hr class="mb-8" />
+      <ul class="grid gap-8">
+        {
+          educationData.map((item) => (
+            <li>
+              <p class="font-bold mb-2">{item.school}</p>
+              <p class="text-xs text-custom-dark-grey">{item.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <!-- Experience  -->
+    <section class="mb-20">
+      <h3 class="text-2xl text-custom-dark-grey font-bold mb-2">Education</h3>
+      <hr class="mb-8" />
+      <ul class="grid gap-8">
+        {
+          experienceData.map((item) => (
+            <li>
+              <p class="font-bold mb-2">{item.company}</p>
+              <p class="text-xs text-custom-dark-grey">
+                {item.position} • {item.startDate}-{item.endDate}
+              </p>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section class="mb-20">
+      <h3 class="text-2xl text-custom-dark-grey font-bold mb-2">Skills</h3>
+      <hr class="mb-8" />
+      <div class="mb-8">
+        <p class="font-bold mb-2">Design</p>
+        <p class="text-xs text-custom-dark-grey">
+          UI/UX Design • Graphic Design • Creative Direction • Web Design •
+          Brand Strategy • User Flows • High-fidelity Prototyping • Developer
+          Hand-off • User Testing • Cross-platform Design (Mobile, Desktop) •
+          E-Commerce Platforms • Email Marketing • Conversion Optimization •
+          Project Management • Content Creation
+        </p>
+      </div>
+      <div>
+        <p class="font-bold mb-2">Engineering</p>
+        <p class="text-xs text-custom-dark-grey">
+          HTML • CSS • Javascript • React • Typescript
+        </p>
+      </div>
+    </section>
+
+    <!-- contact Btn -->
+    <Button>Download Full Resume</Button>
+  </div>
 </Layout>
