@@ -10,5 +10,9 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false
     })
-  ]
+  ],
+  image: {
+    domains: ['uploadthing.com'],
+    remotePatterns: [{ protocol: 'https' }]
+  }
 })
