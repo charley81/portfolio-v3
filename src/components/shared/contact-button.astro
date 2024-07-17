@@ -1,7 +1,9 @@
 ---
 import { Button } from '../ui/button'
+
+const { text } = Astro.props
 ---
 
 <Button className="mt-10">
-  <a href="/contact">Let's Chat, I'm open for work!</a>
+  <a href="/contact">{text}</a>
 </Button>
