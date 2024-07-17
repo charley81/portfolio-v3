@@ -20,8 +20,13 @@ const { title } = Astro.props
     <title>{title}</title>
   </head>
   <body class="text-custom-dark">
-    <MainNavigation client:load />
-    <slot />
-    <Footer />
+    <section
+      id="layout"
+      class="mx-auto px-4 sm:max-w-[628px] md:max-w-[728px] lg:max-w-[1028px]"
+    >
+      <MainNavigation client:load />
+      <slot />
+      <Footer />
+    </section>
   </body>
 </html>
