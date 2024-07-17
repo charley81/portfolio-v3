@@ -2,6 +2,7 @@
   "cSpell.ignoreWords": [
     "Behance",
     "Dribbble",
+    "Luxottica",
     "astro",
     "astrojs",
     "clsx",
@@ -13,5 +14,5 @@
     "uuidv",
     "vaul"
   ],
-  "cSpell.words": ["Berklee", "Scholas"]
+  "cSpell.words": ["Berklee", "Heusen", "Scholas"]
 }

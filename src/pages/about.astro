@@ -3,6 +3,8 @@ import Layout from '../layouts/Layout.astro'
 import '../styles/globals.css'
 import { Image } from 'astro:assets'
 import educationData from '../data/education'
+import experienceData from '../data/experience'
+import { Button } from '@/components/ui/button'
 ---
 
 <Layout title="Welcome to Astro.">
@@ -43,7 +45,7 @@ import educationData from '../data/education'
   </section>
 
   <!-- Education -->
-  <section>
+  <section class="mb-20">
     <h3 class="text-2xl text-custom-dark-grey font-bold mb-2">Education</h3>
     <hr class="mb-8" />
     <ul class="grid gap-8">
@@ -57,7 +59,47 @@ import educationData from '../data/education'
       }
     </ul>
   </section>
+
   <!-- Experience  -->
+  <section class="mb-20">
+    <h3 class="text-2xl text-custom-dark-grey font-bold mb-2">Education</h3>
+    <hr class="mb-8" />
+    <ul class="grid gap-8">
+      {
+        experienceData.map((item) => (
+          <li>
+            <p class="font-bold">{item.company}</p>
+            <p class="text-xs text-custom-dark-grey">
+              {item.position} • {item.startDate}-{item.endDate}
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
   <!-- Skills -->
+  <section class="mb-20">
+    <h3 class="text-2xl text-custom-dark-grey font-bold mb-2">Skills</h3>
+    <hr class="mb-8" />
+    <div class="mb-8">
+      <p class="font-bold">Design</p>
+      <p class="text-xs text-custom-dark-grey">
+        UI/UX Design • Graphic Design • Creative Direction • Web Design • Brand
+        Strategy • User Flows • High-fidelity Prototyping • Developer Hand-off •
+        User Testing • Cross-platform Design (Mobile, Desktop) • E-Commerce
+        Platforms • Email Marketing • Conversion Optimization • Project
+        Management • Content Creation
+      </p>
+    </div>
+    <div>
+      <p class="font-bold">Engineering</p>
+      <p class="text-xs text-custom-dark-grey">
+        HTML • CSS • Javascript • React • Typescript
+      </p>
+    </div>
+  </section>
+
   <!-- contact Btn -->
+  <Button>Download Full Resume</Button>
 </Layout>
