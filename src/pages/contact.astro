@@ -1,10 +1,23 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import '../styles/globals.css'
+import ContactForm from '@/components/contact/contact-form.astro'
+import { Image } from 'astro:assets'
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
-    <h1 class="text-4xl">Contact Page</h1>
+    <h1 class="text-5xl font-bold text-custom-dark-grey mb-10 mt-20">
+      Contact Page
+    </h1>
+    <Image
+      src="https://utfs.io/f/3b6369ed-e022-4224-93bd-3a0682486ef3-7y87ma.png"
+      alt="Contact"
+      height="500"
+      width="5000"
+      loading="eager"
+      class="object-fill mb-4"
+    />
+    <ContactForm />
   </main>
 </Layout>
