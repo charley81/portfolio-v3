@@ -33,7 +33,7 @@ export default function MainNavigation() {
           ) : (
             <Drawer direction="right">
               <DrawerTrigger>
-                <MenuIcon aria-label="Menu Icon" />
+                <MenuIcon aria-label="Menu Icon" size={32} />
               </DrawerTrigger>
               <DrawerContent>
                 <VisuallyHidden.Root>
