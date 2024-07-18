@@ -26,7 +26,12 @@ export default function MainNavigation() {
             <ul className="flex gap-4 text-custom-dark-grey font-bold">
               {links.map((link) => (
                 <li key={link.href} className="hover:text-custom-primary">
-                  <a href={link.href}>{link.name}</a>
+                  <a
+                    href={link.href}
+                    {...(link.name === 'Resume' && { target: '_blank' })}
+                  >
+                    {link.name}
+                  </a>
                 </li>
               ))}
             </ul>
@@ -48,7 +53,11 @@ export default function MainNavigation() {
                   <ul className="flex flex-col gap-4  text-custom-dark-grey font-bold">
                     {links.map((link) => (
                       <li key={link.href} className="hover:text-custom-primary">
-                        <a href={link.href} className="text-left ">
+                        <a
+                          href={link.href}
+                          className="text-left"
+                          {...(link.name === 'Resume' && { target: '_blank' })}
+                        >
                           {link.name}
                         </a>
                       </li>

@@ -22,13 +22,15 @@ const { title } = Astro.props
     <ViewTransitions />
   </head>
   <body class="text-custom-dark">
-    <section
+    <div
       id="layout"
-      class="mx-auto px-4 sm:max-w-[628px] md:max-w-[728px] lg:max-w-[1100px]"
+      class="flex flex-col min-h-screen mx-auto px-4 sm:max-w-[628px] md:max-w-[728px] lg:max-w-[1100px]"
     >
       <MainNavigation client:load />
-      <slot />
+      <main class="flex-1">
+        <slot />
+      </main>
       <Footer />
-    </section>
+    </div>
   </body>
 </html>
