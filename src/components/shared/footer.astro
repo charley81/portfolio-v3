@@ -7,7 +7,7 @@ import footerSocialLinks from '../../data/footer-social-links'
     <ul class="flex w-full justify-between mb-8 max-w-96">
       {
         footerSocialLinks.map((link) => (
-          <li class="text-custom-dark-grey underline">
+          <li class="text-custom-dark-grey underline hover:text-custom-primary transition-all">
             <a href={link.url} target="_blank" rel="noopener noreferrer">
               {link.name}
             </a>
