@@ -3,6 +3,7 @@ import MainNavigation from '@/components/shared/main-navigation'
 import Footer from '@/components/shared/footer.astro'
 import { ViewTransitions } from 'astro:transitions'
 import Posthog from '@/components/posthog.astro'
+import '@fontsource/raleway'
 
 interface Props {
   title: string
@@ -35,6 +36,10 @@ import PostHogLayout from '../layouts/PostHogLayout.astro'
       </main>
       <Footer />
     </div>
-    <PostHogLayout />
+    <style>
+      body {
+        font-family: 'Raleway';
+      }
+    </style>
   </body>
 </html>
