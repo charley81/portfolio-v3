@@ -2,12 +2,14 @@
 import MainNavigation from '@/components/shared/main-navigation'
 import Footer from '@/components/shared/footer.astro'
 import { ViewTransitions } from 'astro:transitions'
+import Posthog from '@/components/posthog.astro'
 
 interface Props {
   title: string
 }
 
 const { title } = Astro.props
+import PostHogLayout from '../layouts/PostHogLayout.astro'
 ---
 
 <!doctype html>
@@ -20,6 +22,7 @@ const { title } = Astro.props
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <ViewTransitions />
+    <Posthog />
   </head>
   <body class="text-custom-dark">
     <div
@@ -32,5 +35,6 @@ const { title } = Astro.props
       </main>
       <Footer />
     </div>
+    <PostHogLayout />
   </body>
 </html>
