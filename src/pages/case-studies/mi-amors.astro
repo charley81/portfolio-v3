@@ -2,20 +2,9 @@
 import Layout from '../../layouts/Layout.astro'
 import '../../styles/globals.css'
 import Hero from '../../components/case-studies/mi-amors/hero.astro'
-import projectCardInfo from '../../data/project-card-info'
-
-export async function getStaticPaths() {
-  return [
-    {
-      params: { casestudy: 'mi-amors' }
-    }
-  ]
-}
-
-const { casestudy } = Astro.params
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Welcome to The Case Study for Mi Amor's">
   <section>
     <Hero />
     <!-- summary -->

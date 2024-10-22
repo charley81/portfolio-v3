@@ -1,10 +1,11 @@
 ---
-import Image from 'astro/components/Image.astro'
+import { Picture } from 'astro:assets'
 ---
 
-<section class="mt-20">
-  <!-- text -->
-  <div>
+<section
+  class="mt-20 min-[744px]:grid min-[744px]:grid-cols-2 gap-8 items-center justify-between w-full"
+>
+  <div class="mb-8">
     <h1 class="text-3xl font-black text-custom-dark-grey">
       Mi Amor’s Café Designing a Seamless Mobile Ordering Experience
     </h1>
@@ -15,13 +16,11 @@ import Image from 'astro/components/Image.astro'
   </div>
 
   <!-- prototype gif -->
-  <div class="mt-8 w-full">
-    <Image
-      src="https://utfs.io/f/itB1v1cNMItp5z0DrOhMqsOXj4wrT1PCy3oRxkFK87UiZGSE"
-      alt="A GIF of the mi amors app prototype"
-      height="5000"
-      width="500"
-      class="mx-auto"
-    />
-  </div>
+  <Picture
+    src="https://utfs.io/f/itB1v1cNMItpX3qe2Auw7gZuIfaY0RBM5OzWwEhe12jqdp4l"
+    alt="A GIF of the mi amors app prototype"
+    class="mx-auto min-[744px]:mx-0 min-[744px]:mr-auto: rounded-[45px] border-[10px] border-custom-dark-grey"
+    inferSize
+    pictureAttributes={{ style: 'margin-left: auto;' }}
+  />
 </section>

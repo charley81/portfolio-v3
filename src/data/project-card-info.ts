@@ -5,7 +5,7 @@ const projectCardInfo = [
     image: 'https://utfs.io/f/itB1v1cNMItpa6anRLitmCB73ZTb5paD6qOQus1gN8xzUhFd',
     link: 'case-studies/mi-amors',
     prototypeGif:
-      'https://utfs.io/f/itB1v1cNMItp5z0DrOhMqsOXj4wrT1PCy3oRxkFK87UiZGSE'
+      'https://utfs.io/f/itB1v1cNMItpORK8165xthbeuHyRm3PvVf4z6SOrspaLKFT2'
   }
 ]
 
