@@ -4,12 +4,12 @@
 
 @layer base {
   :root {
-    --custom-dark-grey: #5b7086;
     --custom-primary: #296eb4;
-    --custom-light: #fefefe;
-    --custom-dark: rgba(4, 10, 17, 1);
+    --custom-light: #f4f9fe;
+    /* --custom-dark: rgba(4, 10, 17, 1); */
+    --custom-dark: #040a11;
     --custom-dark-grey: #5b7086;
-    --custom-light-grey: #b3bfcb;
+    --custom-light-grey: #d3e1f0;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
