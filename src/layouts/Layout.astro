@@ -10,7 +10,6 @@ interface Props {
 }
 
 const { title } = Astro.props
-import PostHogLayout from '../layouts/PostHogLayout.astro'
 ---
 
 <!doctype html>
@@ -28,7 +27,7 @@ import PostHogLayout from '../layouts/PostHogLayout.astro'
   <body class="text-custom-dark">
     <div
       id="layout"
-      class="flex flex-col min-h-screen mx-auto px-4 sm:max-w-[628px] md:max-w-[728px] lg:max-w-[1100px]"
+      class="flex flex-col min-h-screen mx-auto px-4 sm:max-w-[628px] md:max-w-[1100px]"
     >
       <MainNavigation client:load />
       <main class="flex-1">

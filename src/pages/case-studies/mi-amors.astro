@@ -1,0 +1,37 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import '../../styles/globals.css'
+import Hero from '../../components/case-studies/mi-amors/hero.astro'
+import projectCardInfo from '../../data/project-card-info'
+
+export async function getStaticPaths() {
+  return [
+    {
+      params: { casestudy: 'mi-amors' }
+    }
+  ]
+}
+
+const { casestudy } = Astro.params
+---
+
+<Layout title="Welcome to Astro.">
+  <section>
+    <Hero />
+    <!-- summary -->
+    <!-- overview -->
+    <!-- problem statement -->
+    <!-- users  -->
+    <!-- role   -->
+    <!-- constraints -->
+    <!-- empathize  -->
+    <!-- define -->
+    <!-- ideate -->
+    <!-- prototype -->
+    <!-- testing  -->
+    <!-- design system -->
+    <!-- high-fidelity -->
+    <!-- prototype gif 2 -->
+    <!-- contact section -->
+  </section>
+</Layout>

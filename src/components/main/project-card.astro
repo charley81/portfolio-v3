@@ -2,19 +2,18 @@
 import { Image } from 'astro:assets'
 import { truncate } from '../../lib/utils'
 
-const { title, image, description } = Astro.props
+const { title, image, description, link } = Astro.props
 ---
 
-<div>
+<a href={link}>
   <Image
     src={image}
-    alt={title}
-    width={500}
-    height={500}
-    loading="eager"
-    class="mb-4"
+    width={5000}
+    height={100}
+    alt="Picture Mi Amor's food ordering app"
+    loading="lazy"
     inferSize
   />
   <h3 class="font-bold text-2xl text-custom-dark-grey mb-1">{title}</h3>
   <p>{truncate(description, 200)}</p>
-</div>
+</a>
