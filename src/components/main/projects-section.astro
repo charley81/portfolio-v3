@@ -1,5 +1,5 @@
 ---
-import projectCardInfo from '@/data/project-card-info'
+import projectCardInfo from '../../data/project-card-info'
 import ProjectCard from './project-card.astro'
 ---
 
@@ -11,6 +11,7 @@ import ProjectCard from './project-card.astro'
         title={project.title}
         description={project.description}
         image={project.image}
+        link={project.link}
       />
     ))
   }
