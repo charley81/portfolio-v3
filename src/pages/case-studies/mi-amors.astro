@@ -1,14 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro'
 import '../../styles/globals.css'
-import Hero from '../../components/case-studies/mi-amors/hero.astro'
+import Hero from '@/components/case-studies/mi-amors/hero.astro'
+import Summary from '@/components/case-studies/mi-amors/summary.astro'
+import Overview from '@/components/case-studies/mi-amors/overview.astro'
+
+import data from '../../data/casestudies/miamors.json'
 ---
 
 <Layout title="Welcome to The Case Study for Mi Amor's">
-  <section>
+  <section class="min-[616px]:max-w-[616px] mx-auto">
     <Hero />
-    <!-- summary -->
-    <!-- overview -->
+    <Summary />
+    <Overview
+      title={data.overview.title}
+      description={data.overview.description}
+      body={data.overview.body}
+    />
+
     <!-- problem statement -->
     <!-- users  -->
     <!-- role   -->
