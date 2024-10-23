@@ -1,12 +1,17 @@
 {
   "overview": {
-    "title": "Overview",
-    "description": "Simplifying Orders for Mi Amor's Café",
+    "title": "overview",
+    "description": "Making orders simpler and more convenient for Mi Amor's Café.",
     "body": "This project, part of a UX design course, was inspired by my interest in opening a café. I focused on creating a mobile ordering app for Mi Amor's, a local café known for its pastries and Latin cuisine. With a diverse customer base, including busy professionals and tech-savvy students, the goal was to streamline the ordering process, allowing users to place orders quickly, customize their meals, and receive real-time updates for a more convenient and seamless experience."
   },
-  "problem statement": {
-    "title": "PROBLEM STATEMENT",
+  "problemStatement": {
+    "title": "problem statement",
     "description": "Solving Busy Professionals' Food Ordering Frustrations",
-    "body": "Busy Professionals  need a streamlined, efficient, and personalized food ordering experience because they face challenges with, inaccurate delivery times, limited customization, and poor menu navigation, which negatively impacts their ability to manage time, meal planning, and overall satisfaction."
+    "body": "Busy professionals need a streamlined, efficient, and personalized food ordering experience because they face challenges with inaccurate delivery times, limited customization, and poor menu navigation, which negatively impacts their ability to manage time, meal planning, and overall satisfaction. Additionally, they require real-time updates and reliable service to ensure that their orders fit seamlessly into their busy schedules without added frustration or delays."
+  },
+  "users": {
+    "title": "users",
+    "description": "From Fast-Paced Professionals to Café Connoisseurs",
+    "body": "The primary users of Mi Amor's mobile ordering app include three key personas: Efficient Emma, a busy professional seeking a quick and seamless way to order meals during her lunch breaks; Student Sam, a tech-savvy college student looking for affordable, customizable meal options between classes; and Café Clara, a retiree who values simplicity and accessibility in technology."
   }
 }
