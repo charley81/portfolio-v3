@@ -1,9 +1,9 @@
 ---
-const { title, description, body, size = 'large' } = Astro.props
+const { title, description, body, size = 'lg' } = Astro.props
 ---
 
 <section
-  class=`${size === 'sm' && 'min-[1028px]:text-left  min-[1028px]:mx-0'} w-full mt-20 mx-auto min-[744px]:text-center grow-1`
+  class=`${size === 'sm' && 'min-[1028px]:text-left  min-[1028px]:mx-0'} ${size === 'lg' && 'min-[1028px]:max-w-[628px]'} w-full mt-20 mx-auto min-[744px]:text-center grow-1`
 >
   <h3 class="font-thin text-2xl">{title.toUpperCase()}</h3>
   <h3 class="font-black text-2xl text-custom-dark-grey py-4">
