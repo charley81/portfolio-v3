@@ -1,5 +1,12 @@
 ---
 import CasestudyTextsection from '@/components/shared/casestudy-textsection.astro'
+
+const { title, description, body, size } = Astro.props
 ---
 
 <CasestudyTextsection
+  title={title}
+  description={description}
+  body={body}
+  size={size}
+/>

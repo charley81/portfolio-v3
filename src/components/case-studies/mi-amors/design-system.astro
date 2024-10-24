@@ -1,0 +1,17 @@
+---
+import CasestudyTextsection from '@/components/shared/casestudy-textsection.astro'
+import Image from 'astro/components/Image.astro'
+
+const { description, body, size } = Astro.props
+---
+
+<section>
+  <CasestudyTextsection description={description} body={body} size={size} />
+  <div class="mt-8">
+    <Image
+      src="https://utfs.io/f/itB1v1cNMItpcFds1dQBz5jVYTIJ6on9a2UQWSipNCebrqRu"
+      alt="Image of UX Persona Techie Sam"
+      inferSize
+    />
+  </div>
+</section>
