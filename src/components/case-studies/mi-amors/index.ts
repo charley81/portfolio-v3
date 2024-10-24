@@ -12,6 +12,8 @@ import HighFidelity from './high-fidelity.astro'
 import Ideate from './ideate.astro'
 import Prototype from './prototype.astro'
 import Testing from './testing.astro'
+import Sketches from './sketches.astro'
+import Gif from './gif.astro'
 
 export {
   Hero,
@@ -27,5 +29,7 @@ export {
   HighFidelity,
   Ideate,
   Prototype,
-  Testing
+  Testing,
+  Sketches,
+  Gif
 }

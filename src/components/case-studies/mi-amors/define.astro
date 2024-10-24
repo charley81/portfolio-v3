@@ -1,16 +1,11 @@
 ---
 import CasestudyTextsection from '@/components/shared/casestudy-textsection.astro'
 
-const { title, description, body, size } = Astro.props
+const { description, body, size } = Astro.props
 ---
 
 <section>
-  <CasestudyTextsection
-    title={title}
-    description={description}
-    body={body}
-    size={size}
-  />
+  <CasestudyTextsection description={description} body={body} size={size} />
 
   <!-- user story cards -->
   <div class="mt-8 grid gap-8 min-[1028px]:grid-cols-2">
