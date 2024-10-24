@@ -7,9 +7,9 @@ import {
   Summary,
   Overview,
   ProblemStatement,
-  Users
+  Users,
+  Role
 } from '@/components/case-studies/mi-amors'
-import { User } from 'lucide-react'
 ---
 
 <Layout title="Welcome to The Case Study for Mi Amor's">
@@ -38,7 +38,13 @@ import { User } from 'lucide-react'
       description={data.users.description}
       body={data.users.body}
     />
-    <!-- role   -->
+
+    <Role
+      title={data.role.title}
+      description={data.role.description}
+      body={data.role.body}
+    />
+
     <!-- constraints -->
     <!-- empathize  -->
     <!-- define -->
