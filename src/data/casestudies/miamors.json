@@ -27,7 +27,19 @@
   "empathize": {
     "title": "design process",
     "description": "Simplicity, Speed, and Customization Are the Keys to an Effortless Café Ordering Experience",
-    "body": "During the empathize phase, I conducted interviews with a diverse group of 10 participants, including busy professionals, students, and retirees, to uncover pain points and key preferences when ordering from cafés. The interviews revealed a strong desire for a simple, fast, and reliable app with a personalized experience, while highlighting frustrations with slow performance, cluttered interfaces, and limited real-time updates. Using these insights, I created empathy maps and developed three personas—Efficient Emma, Student Sam, and Café Clara—to guide the design process and ensure the app addressed specific user needs."
+    "body": "During the empathize phase, I conducted interviews with a diverse group of 10 participants, including busy professionals, students, and retirees, to uncover pain points and key preferences when ordering from cafés. The interviews revealed a strong desire for a simple, fast, and reliable app with a personalized experience, while highlighting frustrations with slow performance, cluttered interfaces, and limited real-time updates. Using these insights, I created empathy maps and developed three personas—Efficient Emma, Student Sam, and Café Clara—to guide the design process and ensure the app addressed specific user needs.",
+    "interviewCards": {
+      "busyBryan": {
+        "name": "Busy Professional Bryan",
+        "image": "https://utfs.io/f/itB1v1cNMItpy4f89czjhovRdHOm3UWrDY204p5qQJlTxwLE",
+        "bulletPoints": "['The app’s slow performance makes it hard to order quickly', 'The checkout process is so complicated; it takes too long to place an order.', 'The app’s navigation is confusing, and finding what I want is difficult. I just want that app to be fast and simple to use.']"
+      },
+      "focusedFiona": {
+        "name": "Family-Focused Fiona",
+        "image": "https://utfs.io/f/itB1v1cNMItpy2TkSljhovRdHOm3UWrDY204p5qQJlTxwLEf",
+        "bulletPoints": "['I need better filtering options for my dietary needs.', 'I often host events and need the option to schedule orders in advance.', 'I find that current apps  lack of family meal options make it difficult to order  for my family especially on a budget. ']"
+      }
+    }
   },
   "define": {
     "title": "",
