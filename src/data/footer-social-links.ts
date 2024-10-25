@@ -1,13 +1,5 @@
 const footerSocialLinks = [
   {
-    name: 'Dribbble',
-    url: 'https://dribbble.com/'
-  },
-  {
-    name: 'Behance',
-    url: 'https://www.behance.net/'
-  },
-  {
     name: 'GitHub',
     url: 'https://github.com/charley81'
   },
