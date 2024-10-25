@@ -3,8 +3,10 @@ import footerSocialLinks from '../../data/footer-social-links'
 ---
 
 <footer class="mt-20">
-  <div class="lg:flex lg:gap-4">
-    <ul class="flex w-full justify-between mb-8 max-w-96">
+  <div
+    class="flex flex-col gap-8 min-[768px]:flex-row min-[1028px]:justify-between"
+  >
+    <ul class="flex gap-4">
       {
         footerSocialLinks.map((link) => (
           <li class="text-custom-dark-grey underline hover:text-custom-primary transition-all">
