@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro'
 import '../../styles/globals.css'
 import data from '../../data/casestudies/miamors.json'
+import Giffy from '@/components/shared/giffy.astro'
 import ContactButton from '@/components/shared/contact-button.astro'
 import {
   Hero,
@@ -18,8 +19,7 @@ import {
   Ideate,
   Prototype,
   Testing,
-  Sketches,
-  Gif
+  Sketches
 } from '@/components/case-studies/mi-amors'
 ---
 
@@ -82,7 +82,7 @@ import {
       description={data.highFidelity.description}
       body={data.highFidelity.body}
     />
-    <Gif />
+    <Giffy />
   </section>
   <ContactButton text="Let's Chat, I'm open for work!" />
 </Layout>
