@@ -49,7 +49,7 @@ export default function MainNavigation() {
                     </DrawerDescription>
                   </DrawerHeader>
                 </VisuallyHidden.Root>
-                <nav className="flex items-center justify-center w-full h-screen">
+                <nav className="flex items-center justify-center w-full h-screen bg-custom-light">
                   <ul className="flex flex-col gap-4  text-custom-dark-grey font-bold">
                     {links.map((link) => (
                       <li key={link.href} className="hover:text-custom-primary">
