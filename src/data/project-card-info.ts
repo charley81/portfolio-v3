@@ -1,11 +1,17 @@
 const projectCardInfo = [
   {
-    title: 'Personalized Latin Meals, Just a Tap Away',
-    description: 'Seamless Ordering for Latin Food Lovers',
-    image: 'https://utfs.io/f/itB1v1cNMItpa6anRLitmCB73ZTb5paD6qOQus1gN8xzUhFd',
+    title: 'Taste Latin America, Just a tap away',
+    description:
+      'Blending cultural authenticity with an intuitive interface for effortless dish discovery and ordering',
+    image: 'https://utfs.io/f/itB1v1cNMItpxlIaBZhVqmPhEYJ24Ca15rSd9WUgswBnu8TF',
     link: 'case-studies/mi-amors'
-    // prototypeGif:
-    //   'https://utfs.io/f/itB1v1cNMItpORK8165xthbeuHyRm3PvVf4z6SOrspaLKFT2'
+  },
+  {
+    title: 'Effortless Shopping, with Local Charm',
+    description:
+      "An engaging shopping experience that reflects Chop Suey Books' unique identity, community spirit, and curated charm.",
+    image: 'https://utfs.io/f/itB1v1cNMItpdjwVGd9Ws4ZD6bRcq8mvV1i7uQaKTxXtnCAM',
+    link: 'case-studies/chop-suey'
   }
 ]
 
