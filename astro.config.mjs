@@ -12,7 +12,6 @@ export default defineConfig({
     })
   ],
   image: {
-    domains: ['uploadthing.com'],
-    remotePatterns: [{ protocol: 'https' }]
+    domains: ['utfs.io']
   }
 })
