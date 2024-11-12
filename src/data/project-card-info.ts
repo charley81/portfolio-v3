@@ -4,8 +4,12 @@ const projectCardInfo = [
     description: 'Seamless Ordering for Latin Food Lovers',
     image: 'https://utfs.io/f/itB1v1cNMItpa6anRLitmCB73ZTb5paD6qOQus1gN8xzUhFd',
     link: 'case-studies/mi-amors'
-    // prototypeGif:
-    //   'https://utfs.io/f/itB1v1cNMItpORK8165xthbeuHyRm3PvVf4z6SOrspaLKFT2'
+  },
+  {
+    title: 'Chop Suey Books, Brand Site',
+    description: 'We got the books and the brand',
+    image: 'https://utfs.io/f/itB1v1cNMItpdjwVGd9Ws4ZD6bRcq8mvV1i7uQaKTxXtnCAM',
+    link: 'case-studies/chop-suey'
   }
 ]
 
