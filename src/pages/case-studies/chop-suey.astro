@@ -1,0 +1,69 @@
+<!-- ---
+import Layout from '../../layouts/Layout.astro'
+import '../../styles/globals.css'
+import { Hero } from '@/components/case-studies/chop-suey'
+---
+
+<Layout title="Welcome to The Case Study for Mi Amor's">
+  <section
+    class="min-[616px]:max-w-[616px] mx-auto min-[744px]:max-w-[744px] min-[1028px]:max-w-[1028px]"
+  >
+    <Hero />
+    Summary />
+    <div class="min-[1028px]:flex min-[1028px]:gap-8 min-[1028px]:items-start">
+      <Overview
+        title={data.overview.title}
+        description={data.overview.description}
+        body={data.overview.body}
+        size="sm"
+      />
+      <ProblemStatement
+        title={data.problemStatement.title}
+        description={data.problemStatement.description}
+        body={data.problemStatement.body}
+        size="sm"
+      />
+    </div>
+    <Users
+      title={data.users.title}
+      description={data.users.description}
+      body={data.users.body}
+    />
+    <Role
+      title={data.role.title}
+      description={data.role.description}
+      body={data.role.body}
+    />
+    <Constraints
+      title={data.constraints.title}
+      description={data.constraints.description}
+      body={data.constraints.body}
+    />
+    <Empathize
+      title={data.empathize.title}
+      description={data.empathize.description}
+      body={data.empathize.body}
+    />
+    <Define description={data.define.description} body={data.define.body} />
+    <Ideate description={data.ideate.description} body={data.ideate.body} />
+    <Sketches
+      description={data.sketches.description}
+      body={data.sketches.body}
+    />
+    <Prototype
+      description={data.prototype.description}
+      body={data.prototype.body}
+    />
+    <Testing description={data.testing.description} body={data.testing.body} />
+    <DesignSystem
+      description={data.designSystem.description}
+      body={data.designSystem.body}
+    />
+    <HighFidelity
+      description={data.highFidelity.description}
+      body={data.highFidelity.body}
+    />
+    <Giffy />
+  </section>
+  <ContactButton text="Let's Chat, I'm open for work!" />
+</Layout> -->

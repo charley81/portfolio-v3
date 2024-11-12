@@ -1,6 +1,6 @@
 ---
 import CasestudyTextsection from '@/components/shared/casestudy-textsection.astro'
-import Image from 'astro/components/Image.astro'
+import { Image } from 'astro:assets'
 
 const { description, body, size } = Astro.props
 ---
@@ -11,7 +11,8 @@ const { description, body, size } = Astro.props
     <Image
       src="https://utfs.io/f/itB1v1cNMItpeiclEdKHr3wV8uPRDtSTLQKMfxsFUdnEjog4"
       alt="High fidelity wireframe images of mi amor's cafe app"
-      inferSize
+      height={1000}
+      width={1000}
       loading="lazy"
     />
   </div>

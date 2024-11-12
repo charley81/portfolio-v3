@@ -1,6 +1,6 @@
 ---
 import CasestudyTextsection from '@/components/shared/casestudy-textsection.astro'
-import Image from 'astro/components/Image.astro'
+import { Image } from 'astro:assets'
 
 const { description, body, size } = Astro.props
 ---
@@ -11,7 +11,8 @@ const { description, body, size } = Astro.props
     <Image
       src="https://utfs.io/f/itB1v1cNMItpQtCYEU2Gcb0Yx4grV1JINtMdaAnoeS5K3sUw"
       alt="Image of UX Persona Techie Sam"
-      inferSize
+      height={1000}
+      width={1000}
       loading="lazy"
     />
   </div>
@@ -19,7 +20,8 @@ const { description, body, size } = Astro.props
     <Image
       src="https://utfs.io/f/itB1v1cNMItpPpKYHTg9yqtdEmwJsFuTXKx32O8hbk7gRQHi"
       alt="Image of UX Persona Techie Sam"
-      inferSize
+      height={1000}
+      width={1000}
       loading="lazy"
     />
   </div>
