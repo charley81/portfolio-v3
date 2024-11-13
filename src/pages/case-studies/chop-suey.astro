@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro'
 import '../../styles/globals.css'
-import { Hero } from '@/components/case-studies/chop-suey'
+import { Hero, Summary } from '@/components/case-studies/chop-suey'
 ---
 
 <Layout title="Welcome to The Case Study for Mi Amor's">
@@ -9,7 +9,7 @@ import { Hero } from '@/components/case-studies/chop-suey'
     class="min-[616px]:max-w-[616px] mx-auto min-[744px]:max-w-[744px] min-[1028px]:max-w-[1028px]"
   >
     <Hero />
-    <!-- <Summary /> -->
+    <Summary />
     <!-- <div class="min-[1028px]:flex min-[1028px]:gap-8 min-[1028px]:items-start">
       <Overview
         title={data.overview.title}
