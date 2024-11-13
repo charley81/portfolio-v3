@@ -2,7 +2,15 @@
 import Layout from '../../layouts/Layout.astro'
 import '../../styles/globals.css'
 import data from '../../data/casestudies/chopsuey.json'
-import { Hero, Summary, About } from '@/components/case-studies/chop-suey'
+import {
+  Hero,
+  Summary,
+  About,
+  Overview,
+  ProblemStatement,
+  Users,
+  Role
+} from '@/components/case-studies/chop-suey'
 ---
 
 <Layout title="Welcome to The Case Study for Mi Amor's">
@@ -16,7 +24,7 @@ import { Hero, Summary, About } from '@/components/case-studies/chop-suey'
       description={data.about.description}
       body={data.about.body}
     />
-    <!-- <div class="min-[1028px]:flex min-[1028px]:gap-8 min-[1028px]:items-start">
+    <div class="min-[1028px]:flex min-[1028px]:gap-8 min-[1028px]:items-start">
       <Overview
         title={data.overview.title}
         description={data.overview.description}
@@ -24,9 +32,9 @@ import { Hero, Summary, About } from '@/components/case-studies/chop-suey'
         size="sm"
       />
       <ProblemStatement
-        title={data.problemStatement.title}
-        description={data.problemStatement.description}
-        body={data.problemStatement.body}
+        title={data.problem.title}
+        description={data.problem.description}
+        body={data.problem.body}
         size="sm"
       />
     </div>
@@ -40,36 +48,31 @@ import { Hero, Summary, About } from '@/components/case-studies/chop-suey'
       description={data.role.description}
       body={data.role.body}
     />
-    <Constraints
-      title={data.constraints.title}
-      description={data.constraints.description}
-      body={data.constraints.body}
-    />
-    <Empathize
+    <!-- <Empathize
       title={data.empathize.title}
       description={data.empathize.description}
       body={data.empathize.body}
-    />
-    <Define description={data.define.description} body={data.define.body} />
-    <Ideate description={data.ideate.description} body={data.ideate.body} />
-    <Sketches
+    /> -->
+    <!-- <Define description={data.define.description} body={data.define.body} /> -->
+    <!-- <Ideate description={data.ideate.description} body={data.ideate.body} /> -->
+    <!-- <Sketches
       description={data.sketches.description}
       body={data.sketches.body}
-    />
-    <Prototype
+    /> -->
+    <!-- <Prototype
       description={data.prototype.description}
       body={data.prototype.body}
-    />
-    <Testing description={data.testing.description} body={data.testing.body} />
-    <DesignSystem
+    /> -->
+    <!-- <Testing description={data.testing.description} body={data.testing.body} /> -->
+    <!-- <DesignSystem
       description={data.designSystem.description}
       body={data.designSystem.body}
-    />
-    <HighFidelity
+    /> -->
+    <!-- <HighFidelity
       description={data.highFidelity.description}
       body={data.highFidelity.body}
-    />
-    <Giffy /> -->
+    /> -->
+    <!-- <Giffy /> -->
   </section>
   <!-- <ContactButton text="Let's Chat, I'm open for work!" /> -->
 </Layout>
