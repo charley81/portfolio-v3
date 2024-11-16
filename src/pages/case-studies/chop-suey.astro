@@ -5,11 +5,15 @@ import data from '../../data/casestudies/chopsuey.json'
 import {
   Hero,
   Summary,
-  About,
   Overview,
   ProblemStatement,
   Users,
-  Role
+  Role,
+  Constraints,
+  Empathize,
+  Define,
+  Ideate,
+  HighFidelity
 } from '@/components/case-studies/chop-suey'
 ---
 
@@ -20,55 +24,39 @@ import {
     <Hero />
     <Summary />
     <div class="min-[1028px]:flex min-[1028px]:gap-8 min-[1028px]:items-start">
-      <!-- <Overview
+      <Overview
         title={data.overview.title}
         description={data.overview.description}
         body={data.overview.body}
         size="sm"
-      /> -->
-      <!-- <ProblemStatement
+      />
+      <ProblemStatement
         title={data.problem.title}
         description={data.problem.description}
         body={data.problem.body}
         size="sm"
       />
-    </div> -->
-      <!-- <Users
+    </div>
+    <Users
       title={data.users.title}
       description={data.users.description}
       body={data.users.body}
-    /> -->
-      <!-- <Role
+    />
+    <Role
       title={data.role.title}
       description={data.role.description}
       body={data.role.body}
-    /> -->
-      <!-- <Empathize
+    />
+    <Constraints
+      title={data.constraints.title}
+      description={data.constraints.description}
+      body={data.constraints.body}
+    />
+    <Empathize
       title={data.empathize.title}
       description={data.empathize.description}
       body={data.empathize.body}
-    /> -->
-      <!-- <Define description={data.define.description} body={data.define.body} /> -->
-      <!-- <Ideate description={data.ideate.description} body={data.ideate.body} /> -->
-      <!-- <Sketches
-      description={data.sketches.description}
-      body={data.sketches.body}
-    /> -->
-      <!-- <Prototype
-      description={data.prototype.description}
-      body={data.prototype.body}
-    /> -->
-      <!-- <Testing description={data.testing.description} body={data.testing.body} /> -->
-      <!-- <DesignSystem
-      description={data.designSystem.description}
-      body={data.designSystem.body}
-    /> -->
-      <!-- <HighFidelity
-      description={data.highFidelity.description}
-      body={data.highFidelity.body}
-    /> -->
-      <!-- <Giffy /> -->
-    </div>
-    <!-- <ContactButton text="Let's Chat, I'm open for work!" /> -->
+    />
+    <Define description={data.define.description} body={data.define.body} />
   </section>
 </Layout>
