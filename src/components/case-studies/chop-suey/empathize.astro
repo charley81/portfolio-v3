@@ -1,0 +1,73 @@
+---
+import CasestudyTextsection from '@/components/shared/casestudy-textsection.astro'
+import { Image } from 'astro:assets'
+const { title, description, body, size } = Astro.props
+---
+
+<section>
+  <CasestudyTextsection
+    title={title}
+    description={description}
+    body={body}
+    size={size}
+  />
+
+  <!-- TODO: make dynamic  -->
+  <div class="mt-8 grid grid-cols-1 gap-8 min-[1028px]:grid-cols-2">
+    <div>
+      <header
+        class="flex bg-custom-light-grey items-center p-4 gap-4 rounded-t-lg"
+      >
+        <Image
+          src="https://utfs.io/f/itB1v1cNMItpKeffJ9rWHto6NOSL0PsVU1iJpDFQaZeGCrYk"
+          alt="small card image of busy bryan"
+          height={50}
+          width={50}
+        />
+        <h3>Careful Critic Chris</h3>
+      </header>
+      <ul class="mt-2 flex flex-col gap-4">
+        <li>
+          Takes time to make well-informed decisions, valuing detailed product
+          descriptions and reviews.
+        </li>
+        <li>
+          Motivated by high-quality selections and a desire to support local
+          businesses
+        </li>
+        <li>
+          Frustrated when they can't easily compare products or access detailed
+          information
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <header
+        class="flex bg-custom-light-grey items-center p-4 gap-4 rounded-t-lg"
+      >
+        <Image
+          src="https://utfs.io/f/itB1v1cNMItpzYrgSnxlvNrg92DdSk1QC0TtpcbuGPjL3AwR"
+          alt="small card image of focused fiona"
+          height={50}
+          width={50}
+        />
+        <h3>Deal Diver Diana</h3>
+      </header>
+      <ul class="mt-2 flex flex-col gap-4">
+        <li>
+          Plans purchases, always seeking the best value and willing to wait for
+          deals.
+        </li>
+        <li>
+          Committed to saving for larger goals while still wanting to support
+          local businesses.
+        </li>
+        <li>
+          Unexpected fees and difficult-to-apply discounts hinder their shopping
+          experience
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
