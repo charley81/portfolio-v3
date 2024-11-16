@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro'
 import '../../styles/globals.css'
 import data from '../../data/casestudies/chopsuey.json'
+import ContactButton from '@/components/shared/contact-button.astro'
 import {
   Hero,
   Summary,
@@ -59,5 +60,10 @@ import {
     />
     <Define description={data.define.description} body={data.define.body} />
     <Ideate description={data.ideate.description} body={data.ideate.body} />
+    <HighFidelity
+      description={data.highFidelity.description}
+      body={data.highFidelity.body}
+    />
   </section>
+  <ContactButton text="Let's Chat, I'm open for work!" />
 </Layout>
