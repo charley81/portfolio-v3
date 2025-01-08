@@ -1,9 +1,17 @@
 ---
 import Layout from '../../layouts/Layout.astro'
 import '../../styles/globals.css'
-import data from '../../data/casestudies/miamors.json'
+import data from '../../data/casestudies/sbr.json'
 import ContactButton from '@/components/shared/contact-button.astro'
-import { Hero } from '@/components/case-studies/sbr'
+import {
+  Hero,
+  Summary,
+  Overview,
+  ProblemStatement,
+  Role,
+  Constraints,
+  Empathize
+} from '@/components/case-studies/sbr'
 ---
 
 <Layout title="Welcome to The Case Study for Mi Amor's">
@@ -11,5 +19,36 @@ import { Hero } from '@/components/case-studies/sbr'
     class="min-[616px]:max-w-[616px] mx-auto min-[744px]:max-w-[744px] min-[1028px]:max-w-[1028px]"
   >
     <Hero />
+    <Summary />
+    <div class="min-[1028px]:flex min-[1028px]:gap-8 min-[1028px]:items-start">
+      <Overview
+        title={data.overview.title}
+        description={data.overview.description}
+        body={data.overview.body}
+        size="sm"
+      />
+      <ProblemStatement
+        title={data.problemStatement.title}
+        description={data.problemStatement.description}
+        body={data.problemStatement.body}
+        size="sm"
+      />
+    </div>
+    <Role
+      title={data.role.title}
+      description={data.role.description}
+      body={data.role.body}
+    />
+    <Constraints
+      title={data.constraints.title}
+      description={data.constraints.description}
+      body={data.constraints.body}
+    />
+    <Empathize
+      title={data.empathize.title}
+      description={data.empathize.description}
+      body={data.empathize.body}
+    />
   </section>
+  <ContactButton text="Let's Chat, I'm open for work!" />
 </Layout>

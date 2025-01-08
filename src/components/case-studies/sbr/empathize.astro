@@ -1,0 +1,47 @@
+---
+import CasestudyTextsection from '@/components/shared/casestudy-textsection.astro'
+import { Image } from 'astro:assets'
+const { title, description, body, size } = Astro.props
+---
+
+<section>
+  <CasestudyTextsection
+    title={title}
+    description={description}
+    body={body}
+    size={size}
+  />
+
+  <!-- TODO: make dynamic  -->
+  <div class="mt-8 grid grid-cols-1 gap-8 min-[1028px]:grid-cols-2">
+    <div>
+      <header
+        class="flex bg-custom-light-grey items-center justify-center p-4 gap-4 rounded-t-lg"
+      >
+        <h3 class="text-l font-bold">Alex “Amen Break” Jones</h3>
+      </header>
+      <p class="mt-4">
+        As a dedicated underground DJ, I want to grow my global fanbase,
+        showcase my unique style, and earn revenue through a centralized
+        platform so that I can connect more deeply with fans, expand my career
+        opportunities, and focus on my craft instead of juggling multiple
+        fragmented tools.
+      </p>
+    </div>
+
+    <div>
+      <header
+        class="flex bg-custom-light-grey items-center justify-center p-4 gap-4 rounded-t-lg"
+      >
+        <h3 class="text-l font-bold">Frances “Fav Fan” Smith</h3>
+      </header>
+      <p class="mt-4">
+        As a passionate drum & bass fan, I want to easily discover and engage
+        with niche DJs and live streams through a unified platform so that I can
+        feel connected to the community, support my favorite artists, and enjoy
+        fresh and high-quality content without the hassle of searching across
+        multiple platforms.`
+      </p>
+    </div>
+  </div>
+</section>

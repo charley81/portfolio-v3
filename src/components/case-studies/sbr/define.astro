@@ -1,0 +1,35 @@
+---
+import CasestudyTextsection from '@/components/shared/casestudy-textsection.astro'
+
+const { description, body, size } = Astro.props
+---
+
+<section>
+  <CasestudyTextsection description={description} body={body} size={size} />
+
+  <!-- user story cards -->
+  <div class="mt-8 grid gap-8 min-[1028px]:grid-cols-2">
+    <div class="border-4 border-custom-dark p-4 rounded-[8px]">
+      <h3 class="font-bold">Busy Professional Brian</h3>
+      <p class="text-custom-dark-grey">
+        As a busy marketing manager, Brian wants to quickly place food orders
+        using an intuitive mobile app so that he can save time during his hectic
+        workdays. He needs real-time delivery tracking to manage his schedule
+        effectively and ensure that his food arrives on time. Brian also desires
+        a diverse menu that offers quick meal options that fit his ever-changing
+        tastes.
+      </p>
+    </div>
+    <div class="border-4 border-custom-dark p-4 rounded-[8px]">
+      <h3 class="font-bold">Family-Focused Fiona</h3>
+      <p class="text-custom-dark-grey">
+        As a stay-at-home mom managing a busy household, Fiona wants an
+        easy-to-use mobile food ordering app that allows her to find
+        family-friendly restaurants and affordable meal options. She needs
+        simple customization options to cater to her family's diverse
+        preferences and reliable customer support in case of any issues with her
+        orders.
+      </p>
+    </div>
+  </div>
+</section>
