@@ -1,1 +1,15 @@
-<h1>Hello from SBR Case Study</h1>
+---
+import Layout from '../../layouts/Layout.astro'
+import '../../styles/globals.css'
+import data from '../../data/casestudies/miamors.json'
+import ContactButton from '@/components/shared/contact-button.astro'
+import { Hero } from '@/components/case-studies/sbr'
+---
+
+<Layout title="Welcome to The Case Study for Mi Amor's">
+  <section
+    class="min-[616px]:max-w-[616px] mx-auto min-[744px]:max-w-[744px] min-[1028px]:max-w-[1028px]"
+  >
+    <Hero />
+  </section>
+</Layout>
