@@ -5,7 +5,7 @@ import ProblemStatement from './problem-statement.astro'
 import Role from './role.astro'
 import Constraints from './constraints.astro'
 import Empathize from './empathize.astro'
-// import Define from './define.astro'
+import Define from './define.astro'
 // import Ideate from './ideate.astro'
 // import Prototype from './prototype.astro'
 // import Testing from './testing.astro'
@@ -19,8 +19,8 @@ export {
   ProblemStatement,
   Role,
   Constraints,
-  Empathize
-  // Define,
+  Empathize,
+  Define
   // DesignSystem,
   // HighFidelity,
   // Ideate,

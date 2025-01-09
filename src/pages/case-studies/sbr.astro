@@ -10,7 +10,8 @@ import {
   ProblemStatement,
   Role,
   Constraints,
-  Empathize
+  Empathize,
+  Define
 } from '@/components/case-studies/sbr'
 ---
 
@@ -49,6 +50,7 @@ import {
       description={data.empathize.description}
       body={data.empathize.body}
     />
+    <Define description={data.define.description} body={data.define.body} />
   </section>
   <ContactButton text="Let's Chat, I'm open for work!" />
 </Layout>
