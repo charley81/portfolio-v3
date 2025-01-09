@@ -11,7 +11,9 @@ import {
   Role,
   Constraints,
   Empathize,
-  Define
+  Define,
+  Ideate,
+  HighFidelity
 } from '@/components/case-studies/sbr'
 ---
 
@@ -51,6 +53,11 @@ import {
       body={data.empathize.body}
     />
     <Define description={data.define.description} body={data.define.body} />
+    <Ideate description={data.ideate.description} body={data.ideate.body} />
+    <HighFidelity
+      description={data.highFidelity.description}
+      body={data.highFidelity.body}
+    />
   </section>
   <ContactButton text="Let's Chat, I'm open for work!" />
 </Layout>

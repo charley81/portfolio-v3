@@ -44,24 +44,8 @@
     "description": "Turning Competitor Weaknesses into a Personalized, Efficient Ordering Experience",
     "body": "In the ideate phase, I conducted a competitive audit of Uber Eats, Grubhub, and DoorDash, identifying strong customization features but noting cluttered interfaces, slow performance, and a lack of personalization. This led to key \"How Might We\" questions, such as improving speed and providing a personalized experience, which guided our focus on streamlining the user flow and reducing steps in the ordering process. These insights drove our design improvements to create a more efficient, user-friendly app."
   },
-  "sketches": {
-    "description": "Turning Rough Ideas into a Streamlined, Personalized Café Experience",
-    "body": "Also in the ideate phase, I created initial sketches to explore various design solutions, focusing on simplifying the user flow and enhancing customization options. These early sketches helped visualize different concepts and allowed me to quickly iterate on ideas before moving to wireframes. They served as the foundation for defining key features, such as navigation and personalized ordering."
-  },
-  "prototype": {
-    "description": "Streamlined Flows and Intuitive Navigation for a Personalized Café Experience",
-    "body": "In the prototype phase, I designed user flows that simplified the ordering process, allowing users to browse menus and complete checkout in just a few steps. The information architecture (IA) ensured intuitive navigation with easy access to key features like the home screen, cart, and orders. Logical menu categories, along with search and filter options, provided a seamless and personalized user experience."
-  },
-  "testing": {
-    "description": "Enhancing User Experience with Clear Confirmations, Visible Actions, and New Features",
-    "body": "During prototype testing, usability issues like unclear reward confirmation and difficulty finding the next call-to-action button were identified and addressed with added confirmation messages and improved button visibility. Missing features, such as tip options and delivery scheduling, were added in later iterations. These improvements, along with enhanced visual feedback for cart updates, significantly improved the app's intuitiveness and user experience."
-  },
-  "designSystem": {
-    "description": "Mi Amor’s vibrant colors and clean typography blend to create a culturally inspired, seamless experience.",
-    "body": "To reflect Mi Amor’s Latin American roots, I based the color scheme on the warm, earthy tone #D0AC6E, inspired by regional architecture and everyday items. All additional colors, including call-to-action elements, were chosen to complement this primary shade, with green for success and red for danger. For typography, I selected Proxima Nova, using a simple, professional approach with three font sizes and varying weights to create hierarchy and clarity."
-  },
   "highFidelity": {
-    "description": "A Minimalistic Design Delivering Real-Time Tracking, Nutritional Info, and Personalized Order Scheduling",
-    "body": "To reflect Mi Amor’s Latin American roots, I based the color scheme on the warm, earthy tone #D0AC6E, inspired by regional architecture and everyday items. All additional colors, including call-to-action elements, were chosen to complement this primary shade, with green for success and red for danger. For typography, I selected Raleway, using a simple, professional approach with three font sizes and varying weights to create hierarchy and clarity."
+    "description": "Where vision meets reality: bringing the design to life.",
+    "body": "The final design addresses user pain points and creates a vibrant, engaging experience for both DJs and fans, fostering stronger connections and supporting the growth of the underground drum & bass community."
   }
 }

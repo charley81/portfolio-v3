@@ -1,0 +1,19 @@
+---
+import CasestudyTextsection from '@/components/shared/casestudy-textsection.astro'
+import { Image } from 'astro:assets'
+
+const { description, body, size } = Astro.props
+---
+
+<section>
+  <CasestudyTextsection description={description} body={body} size={size} />
+  <div class="mt-8">
+    <Image
+      src="https://utfs.io/f/itB1v1cNMItprsLHf9VXy8ngxmQbHs70ULFdj1X2vfhreilJ"
+      alt="High fidelity images of slanging beats radio website"
+      height={5000}
+      width={5000}
+      loading="lazy"
+    />
+  </div>
+</section>
