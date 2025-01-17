@@ -4,11 +4,11 @@ const { title, body, image } = Astro.props
 ---
 
 <section
-  class="mt-20 min-[744px]:grid min-[744px]:grid-cols-2 gap-8 items-center justify-between w-full"
+  class="mt-20 grid grid-col min-[768px]:grid-cols-2 items-center justify-between w-full"
 >
   <div class="mb-8">
-    <h1 class="text-3xl font-black text-custom-dark-grey">{title}</h1>
-    <p class="font-bold mt-2">
+    <h1 class="text-5xl font-bold">{title}</h1>
+    <p class="text-2xl mt-2 text-custom-dark-grey">
       {body}
     </p>
   </div>
@@ -19,6 +19,6 @@ const { title, body, image } = Astro.props
     height={300}
     width={300}
     loading="lazy"
-    class="mx-auto"
+    class="mx-auto min-[768px]:mx-0 min-[768px]:ml-auto"
   />
 </section>
