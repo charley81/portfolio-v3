@@ -1,0 +1,22 @@
+---
+import CaseStudyTextSection from './case-study-text-section.astro'
+const { title, body, name } = Astro.props
+import { SquareMenu, Navigation, Trophy } from 'lucide-astro'
+---
+
+<section class="mt-40">
+  <CaseStudyTextSection name={name} title={title} body={body} />
+  <ul class="flex gap-4 flex-col mt-8">
+    <li>
+      <SquareMenu class="inline-block mr-2 text-custom-primary" />Simplified the
+      ordering process
+    </li>
+    <li>
+      <Navigation class="inline-block mr-2 text-custom-primary" /> Real-time tracking
+    </li>
+    <li>
+      <Trophy class="inline-block mr-2 text-custom-primary" /> Integrated loyalty
+      rewards
+    </li>
+  </ul>
+</section>

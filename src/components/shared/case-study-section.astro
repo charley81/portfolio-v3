@@ -1,0 +1,10 @@
+---
+import { Image } from 'astro:assets'
+import CaseStudyTextSection from './case-study-text-section.astro'
+const { image, title, body } = Astro.props
+---
+
+<section class="mt-40">
+  <Image src={image} alt={title} height={500} width={500} />
+  <CaseStudyTextSection title={title} body={body} < section />
+</section>

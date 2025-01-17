@@ -1,72 +1,42 @@
 {
+  "hero": {
+    "title": "Mi Amor’s",
+    "body": "Creating a Faster, Simpler, and More Personalized Mobile ordering experience",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpdwT5Tc9Ws4ZD6bRcq8mvV1i7uQaKTxXtnCAM"
+  },
   "overview": {
-    "title": "overview",
-    "description": "Making orders simpler and more convenient for Mi Amor's Café.",
-    "body": "This project, part of a UX design course, was inspired by my interest in opening a café. I focused on creating a mobile ordering app for Mi Amor's, a local café known for its pastries and Latin cuisine. With a diverse customer base, including busy professionals and tech-savvy students, the goal was to streamline the ordering process, allowing users to place orders quickly, customize their meals, and receive real-time updates for a more convenient and seamless experience."
+    "name": "overview",
+    "title": "Where vibrant Latin flavors meet the convenience of a tap",
+    "body": "Mi Amor’s is a vibrant Latin cuisine café beloved by its diverse customer base, including busy professionals, students, and families. Known for its freshly made dishes and welcoming atmosphere, Mi Amor’s wanted to extend its exceptional in-store experience to the digital realm by offering a streamlined mobile ordering app."
   },
-  "problemStatement": {
-    "title": "problem statement",
-    "description": "Solving Busy Professionals' Food Ordering Frustrations",
-    "body": "Busy professionals need a streamlined, efficient, and personalized food ordering experience because they face challenges with inaccurate delivery times, limited customization, and poor menu navigation, which negatively impacts their ability to manage time, meal planning, and overall satisfaction. Additionally, they require real-time updates and reliable service to ensure that their orders fit seamlessly into their busy schedules without added frustration or delays."
+  "section1": {
+    "title": "Save time, serve more — efficiency at every turn.",
+    "body": "Long queues and waiting times frustrate customers and reduce overall satisfaction, leading to potential revenue loss. Streamlining the process lets Mi Amor’s serve more patrons quickly, improving both the customer experience and the café’s bottom line.",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpZ0GOcWt5j7G4SMHWFbtkqO9cIEDhelU0uTpn"
   },
-  "users": {
-    "title": "users",
-    "description": "From Fast-Paced Professionals to Café Connoisseurs",
-    "body": "The primary users of Mi Amor's mobile ordering app include three key personas: Efficient Emma, a busy professional seeking a quick and seamless way to order meals during her lunch breaks; Student Sam, a tech-savvy college student looking for affordable, customizable meal options between classes; and Café Clara, a retiree who values simplicity and accessibility in technology."
+  "section2": {
+    "title": "Your order, your way — because taste is personal.",
+    "body": "Customers crave personalized meals, from extra sauces to dietary tweaks, but traditional ordering methods often miss these details. Offering robust customization increases satisfaction and drives repeat business",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpruKDJtXy8ngxmQbHs70ULFdj1X2vfhreilJZ"
   },
-  "role": {
-    "title": "my role",
-    "description": "Leading the End-to-End UX Design Process",
-    "body": "The primary users of Mi Amor's mobile ordering app include three key personas: Efficient Emma, a busy professional seeking a quick and seamless way to order meals during her lunch breaks; Student Sam, a tech-savvy college student looking for affordable, customizable meal options between classes; and Café Clara, a retiree who values simplicity and accessibility in technology."
+  "section3": {
+    "title": "Precision for every palate — no more ‘lost in translation.",
+    "body": "Miscommunication often leads to incorrect orders, creating frustration and undermining trust. A clear digital system reduces errors and keeps customers informed about their orders",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpforjo7D6j9PF1LCJSzdQnRiUXuW8pt2KTbwg"
   },
-  "constraints": {
-    "title": "constraints",
-    "description": "Delivering a High-Fidelity Prototype in Just Eight Weeks",
-    "body": "This project had an ambitious eight-week timeline to progress from research to high-fidelity prototypes, including usability testing. I faced challenges coordinating user interviews and testing sessions due to remote operations and the demanding schedules of participants. However, I adapted quickly, efficiently managing these constraints to keep the design process on track while swiftly incorporating valuable user feedback."
+  "section4": {
+    "title": "Pay fast, feel secure — a win-win at checkout.",
+    "body": "Slow or complex payments deter repeat customers and stall transactions. Secure, seamless payment options make ordering fast, easy, and trustworthy",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpsrbUxI3iDb5SChEYBR49kK6f0lcevzM1PQWx"
   },
-  "empathize": {
-    "title": "design process",
-    "description": "Simplicity, Speed, and Customization Are the Keys to an Effortless Café Ordering Experience",
-    "body": "During the empathize phase, I conducted interviews with a diverse group of 10 participants, including busy professionals, students, and retirees, to uncover pain points and key preferences when ordering from cafés. The interviews revealed a strong desire for a simple, fast, and reliable app with a personalized experience, while highlighting frustrations with slow performance, cluttered interfaces, and limited real-time updates. Using these insights, I created empathy maps and developed three personas—Efficient Emma, Student Sam, and Café Clara—to guide the design process and ensure the app addressed specific user needs.",
-    "interviewCards": {
-      "busyBryan": {
-        "name": "Busy Professional Bryan",
-        "image": "https://utfs.io/f/itB1v1cNMItpy4f89czjhovRdHOm3UWrDY204p5qQJlTxwLE",
-        "bulletPoints": "['The app’s slow performance makes it hard to order quickly', 'The checkout process is so complicated; it takes too long to place an order.', 'The app’s navigation is confusing, and finding what I want is difficult. I just want that app to be fast and simple to use.']"
-      },
-      "focusedFiona": {
-        "name": "Family-Focused Fiona",
-        "image": "https://utfs.io/f/itB1v1cNMItpy2TkSljhovRdHOm3UWrDY204p5qQJlTxwLEf",
-        "bulletPoints": "['I need better filtering options for my dietary needs.', 'I often host events and need the option to schedule orders in advance.', 'I find that current apps  lack of family meal options make it difficult to order  for my family especially on a budget. ']"
-      }
-    }
+  "section5": {
+    "title": "Start strong, stay inspired — onboarding made effortless.",
+    "body": "Mi Amor’s onboarding process ensures a smooth and friendly start for new users, providing straightforward sign-up steps and intuitive prompts. By guiding customers through profile setup and menu exploration, it builds immediate confidence and reduces any initial confusion. This seamless introduction to the app elevates the overall experience and encourages continued use.",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItphKm6jrPdRwSYn8UsXya7TcQ9FGpC6NWj3J0A"
   },
-  "define": {
-    "description": "Fast, Convenient, and Seamless Ordering for Every Café Customer",
-    "body": "In the define phase, I created user stories to ensure every feature aligned with our personas' needs, such as fast, customizable ordering for busy professionals. I also defined the 5W’s and How to clarify the app’s purpose, and hypothesized that a streamlined interface and quicker checkout would lead to greater user satisfaction. With a clear goal of providing a seamless, efficient ordering experience, the app offers fast, customizable orders and real-time updates, tailored to Mi Amor’s diverse customer base."
-  },
-  "ideate": {
-    "description": "Turning Competitor Weaknesses into a Personalized, Efficient Ordering Experience",
-    "body": "In the ideate phase, I conducted a competitive audit of Uber Eats, Grubhub, and DoorDash, identifying strong customization features but noting cluttered interfaces, slow performance, and a lack of personalization. This led to key \"How Might We\" questions, such as improving speed and providing a personalized experience, which guided our focus on streamlining the user flow and reducing steps in the ordering process. These insights drove our design improvements to create a more efficient, user-friendly app."
-  },
-  "sketches": {
-    "description": "Turning Rough Ideas into a Streamlined, Personalized Café Experience",
-    "body": "Also in the ideate phase, I created initial sketches to explore various design solutions, focusing on simplifying the user flow and enhancing customization options. These early sketches helped visualize different concepts and allowed me to quickly iterate on ideas before moving to wireframes. They served as the foundation for defining key features, such as navigation and personalized ordering."
-  },
-  "prototype": {
-    "description": "Streamlined Flows and Intuitive Navigation for a Personalized Café Experience",
-    "body": "In the prototype phase, I designed user flows that simplified the ordering process, allowing users to browse menus and complete checkout in just a few steps. The information architecture (IA) ensured intuitive navigation with easy access to key features like the home screen, cart, and orders. Logical menu categories, along with search and filter options, provided a seamless and personalized user experience."
-  },
-  "testing": {
-    "description": "Enhancing User Experience with Clear Confirmations, Visible Actions, and New Features",
-    "body": "During prototype testing, usability issues like unclear reward confirmation and difficulty finding the next call-to-action button were identified and addressed with added confirmation messages and improved button visibility. Missing features, such as tip options and delivery scheduling, were added in later iterations. These improvements, along with enhanced visual feedback for cart updates, significantly improved the app's intuitiveness and user experience."
-  },
-  "designSystem": {
-    "description": "Mi Amor’s vibrant colors and clean typography blend to create a culturally inspired, seamless experience.",
-    "body": "To reflect Mi Amor’s Latin American roots, I based the color scheme on the warm, earthy tone #D0AC6E, inspired by regional architecture and everyday items. All additional colors, including call-to-action elements, were chosen to complement this primary shade, with green for success and red for danger. For typography, I selected Proxima Nova, using a simple, professional approach with three font sizes and varying weights to create hierarchy and clarity."
-  },
-  "highFidelity": {
-    "description": "A Minimalistic Design Delivering Real-Time Tracking, Nutritional Info, and Personalized Order Scheduling",
-    "body": "To reflect Mi Amor’s Latin American roots, I based the color scheme on the warm, earthy tone #D0AC6E, inspired by regional architecture and everyday items. All additional colors, including call-to-action elements, were chosen to complement this primary shade, with green for success and red for danger. For typography, I selected Raleway, using a simple, professional approach with three font sizes and varying weights to create hierarchy and clarity."
+  "section6": {
+    "title": "Sip, savor, and score — where every order earns you more!",
+    "body": "The Mi Amor’s Rewards Program creates tangible incentives for loyal customers by offering points, exclusive discounts, and special bonuses for frequent orders. This encourages repeated engagement, while transparent progress tracking keeps users motivated. Ultimately, the program strengthens the relationship between the café and its patrons, making every visit more rewarding.",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpxFMEE8hVqmPhEYJ24Ca15rSd9WUgswBnu8TF"
   }
 }
