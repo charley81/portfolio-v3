@@ -2,13 +2,13 @@
 const { name, title, body } = Astro.props
 ---
 
-<div class="w-full mt-8">
+<div class="w-full mt-8 max-w-xl mx-auto">
   {name && <h3 class="font-thin text-2xl">{name.toUpperCase()}</h3>}
 
-  <h3 class="font-black text-2xl text-custom-dark-grey py-4">
+  <h3 class="font-semibold text-3xl text-custom-dark-grey py-4">
     {title}
   </h3>
-  <p class="leading-loose">
+  <p class="leading-8 text-lg">
     {body}
   </p>
 </div>
