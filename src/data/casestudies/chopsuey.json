@@ -1,47 +1,49 @@
 {
+  "hero": {
+    "title": "Chop Suey",
+    "body": "Bringing Books to Life Online: Redesigning Chop Suey’s eCommerce Experience",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpPNhFxTg9yqtdEmwJsFuTXKx32O8hbk7gRQHi"
+  },
+  "summary": {
+    "role": "UI Designer",
+    "team": "Chris Harley",
+    "teamSubtitle": "Solo",
+    "durationDate": "Nov 2024",
+    "durationTime": "1 wk. Total"
+  },
   "overview": {
-    "title": "Overview",
-    "description": "Chop Suey Books Online: A Redesign to Connect Community and Convenience",
-    "body": "Chop Suey Books is a quirky, independent bookstore in Richmond, Virginia’s Carytown district, known for its carefully curated selection of new and used books, literary events, and welcoming atmosphere. Despite being well-regarded in the community and frequented by loyal customers, the store’s eCommerce site was struggling to convert visitors into online customers. Chop Suey sought a website redesign that would maintain its small-shop appeal while providing a modern, seamless shopping experience."
+    "name": "Brief",
+    "title": "From Shelf to Screen: Redesigning Chop Suey’s Online Experience with Heart and Ease",
+    "body": "Chop Suey Books, a beloved independent bookstore in Richmond, Virginia, sought to revamp its eCommerce website to increase conversions while maintaining its small-shop charm. The goal was to provide users with an engaging, intuitive online shopping experience that reflects the store’s quirky, community-focused identity."
   },
-  "problem": {
-    "title": "Problem Statement",
-    "description": "Turning Browsers into Buyers: Solving Chop Suey’s eCommerce Conversion Challenge",
-    "body": "While Chop Suey Books’ website had a steady stream of visitors, few converted into paying customers. Users weren’t getting the detailed information they needed or experiencing the \"local business\" feel that sets Chop Suey apart. The goal was to redesign the eCommerce platform to better showcase Chop Suey’s unique brand and curated inventory, ultimately increasing online sales and capturing the in-store experience online."
+  "section1": {
+    "title": "Simplifying the Path to Purchase",
+    "body": "Many users visited the site but left without completing a purchase, indicating pain points in the browsing and checkout process. Simplifying the user journey was key to turning visitors into customers.",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpitB4A9TNMItpmlU8skfoNerjVHTuR1hGdcXY"
   },
-  "users": {
-    "title": "Users",
-    "description": "Meet the Readers: Understanding Chop Suey’s Online Book Lovers",
-    "body": "The primary users of Chop Suey Books’ eCommerce site were local and regional customers who valued the convenience of online shopping but still wanted to support a small, independent business. Two key personas emerged from research: the Careful Critic, a detail-oriented and patient shopper who seeks quality and well-curated selections to make informed purchases, and the Deal Diver, a budget-conscious shopper who enjoys finding the best value and is driven by discounts and special offer"
+  "section2": {
+    "title": "Giving Users the Details They Crave",
+    "body": "Shoppers couldn’t find the detailed descriptions and reviews they needed to make confident buying decisions, especially for Chop Suey’s unique, curated books. Enriching product pages was essential to build trust and engagement.",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpLfLk69RGHjZa1Nr7b8mdCfVecUsy5kR0o3JT"
   },
-  "role": {
-    "title": "Role",
-    "description": "Crafting the Experience as the Sole UI Designer",
-    "body": "I served as the sole UI designer for this one-week sprint. While I didn’t conduct the initial user research, I was responsible for empathizing with the provided data and user insights to fully understand the target audience’s needs. From there, I led the ideate, prototype, and test phases, independently handling competitive analysis, user flow development, and key design decisions."
+  "section3": {
+    "title": "Small-Shop Charm, Big Online Impact",
+    "body": "The site failed to reflect Chop Suey’s quirky, independent bookstore vibe, making it hard for users to feel connected to the brand. Redesigning with a focus on preserving the store’s identity was crucial to bridging the gap.",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpa1h1HfitmCB73ZTb5paD6qOQus1gN8xzUhFd"
   },
-  "constraints": {
-    "title": "Constraints",
-    "description": "Designing for Ease While Preserving Brand in a week",
-    "body": "This project was completed within a one-week design sprint, with resources limited to the initial research and persona insights provided by the research team. The focus was clear: to create impactful eCommerce improvements that could boost conversions while preserving Chop Suey Books' unique, independent brand identity."
+  "section4": {
+    "title": "Navigating Made Easy: Streamlining Every Step",
+    "body": "The navigation was cumbersome, and the checkout process involved too many steps, causing frustration and cart abandonment. Streamlining these elements was necessary to create a seamless shopping experience.",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpDRIihnOK3saguQEvWYJIk2B7pRzybMP8Zj0l"
   },
-  "empathize": {
-    "title": "Design Process",
-    "description": "Deep Diving into User Insights: Building Empathy from Data",
-    "body": "I started by reviewing Chop Suey’s goals and analyzing the user research provided by the research team. From there, I identified key areas of improvement to help balance the store’s unique brand with users’ need for a better online experience. I performed a competitive analysis, looking at both large bookstores like Barnes & Noble and smaller independent sites like Powell’s, to gather ideas on effective eCommerce patterns."
+  "section5": {
+    "title": "Spot the Deals: Making Savings Effortless",
+    "body": "Discount-seeking users struggled to find promotions or apply them during checkout, reducing their motivation to buy. Highlighting deals and simplifying discounts made shopping more rewarding.",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpZY6hQ0t5j7G4SMHWFbtkqO9cIEDhelU0uTpn"
   },
-  "define": {
-    "title": "",
-    "description": "Mapping the Path: Defining a Seamless Journey from Browse to Buy",
-    "body": "Armed with clear insights into user needs and goals, I crafted user flows that would transform the shopping journey into a seamless experience from browsing to checkout. This process was all about uncovering the ideal path to showcase promotions, enrich product details, and streamline checkout, ensuring every click and scroll felt intuitive and satisfying."
-  },
-  "ideate": {
-    "title": "",
-    "description": "From Ideas to Wireframes: Shaping the Vision for Chop Suey’s Online Experience",
-    "body": "I began sketching initial layout ideas on paper to visualize ways to incorporate product details, deals, and a strong brand presence without overwhelming the user. After refining these sketches, I moved to digital wireframes in Figma, laying out the structure for a clean, user-centered design."
-  },
-  "highFidelity": {
-    "title": "",
-    "description": "Bringing It to Life: Crafting a Polished, Brand-Driven Design",
-    "body": "The final high-fidelity design effectively balanced Chop Suey’s unique brand with a smooth eCommerce experience. Visual elements, such as type and colors, reflected the cozy, indie bookstore feel, while streamlined functionality allowed users to browse, shop, and check out effortlessly."
+  "section6": {
+    "title": "Bringing the Bookstore Experience Home",
+    "body": "The online shopping experience lacked the welcoming atmosphere of the physical store, leaving users feeling disengaged. Designing an eCommerce platform that echoed the in-store warmth was critical to reconnect with customers.",
+    "image": "https://jpo0h87wq9.ufs.sh/f/itB1v1cNMItpjxkoAYvk1D4zExsYqglUv5JfN7QFGRra83Zc"
   }
 }

@@ -1,0 +1,24 @@
+---
+import { Image } from 'astro:assets'
+const { title, body, image, imageHeight, imageWidth } = Astro.props
+---
+
+<section
+  class="mt-20 grid grid-col min-[768px]:grid-cols-2 items-center justify-between w-full"
+>
+  <div class="mb-8">
+    <h1 class="text-5xl font-bold">{title}</h1>
+    <p class="text-2xl mt-2 text-custom-dark-grey">
+      {body}
+    </p>
+  </div>
+
+  <Image
+    src={image}
+    alt="Mi Amor's main items screen"
+    height={imageHeight}
+    width={imageWidth}
+    loading="lazy"
+    class="mx-auto min-[768px]:mx-0 min-[768px]:ml-auto"
+  />
+</section>

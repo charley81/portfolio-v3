@@ -1,0 +1,16 @@
+---
+import { Image } from 'astro:assets'
+import CaseStudyTextSection from './case-study-text-section.astro'
+const { image, title, body } = Astro.props
+---
+
+<section class="mt-40 lg:flex lg:justify-between lg:items-center lg:gap-8">
+  <Image
+    src={image}
+    alt={title}
+    height={900}
+    width={900}
+    class="mx-auto lg:max-w-md"
+  />
+  <CaseStudyTextSection title={title} body={body} />
+</section>
