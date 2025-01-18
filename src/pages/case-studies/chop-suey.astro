@@ -1,69 +1,75 @@
-<!-- ---
+---
 import Layout from '../../layouts/Layout.astro'
 import '../../styles/globals.css'
 import data from '../../data/casestudies/chopsuey.json'
 import ContactButton from '@/components/shared/contact-button.astro'
 import {
-  Hero,
-  Summary,
+  CaseStudyHero,
   Overview,
-  ProblemStatement,
-  Users,
-  Role,
-  Constraints,
-  Empathize,
-  Define,
-  Ideate,
-  HighFidelity
-} from '@/components/case-studies/chop-suey'
+  CaseStudySection,
+  CaseStudyRole
+} from '@/components/shared/'
 ---
 
-<Layout title="Welcome to The Case Study for Mi Amor's">
-  <section
+<Layout title="Welcome to The Case Study for Chop Suey">
+  <main
     class="min-[616px]:max-w-[616px] mx-auto min-[744px]:max-w-[744px] min-[1028px]:max-w-[1028px]"
   >
-    <Hero />
-    <Summary />
-    <div class="min-[1028px]:flex min-[1028px]:gap-8 min-[1028px]:items-start">
-      <Overview
-        title={data.overview.title}
-        description={data.overview.description}
-        body={data.overview.body}
-        size="sm"
-      />
-      <ProblemStatement
-        title={data.problem.title}
-        description={data.problem.description}
-        body={data.problem.body}
-        size="sm"
-      />
-    </div>
-    <Users
-      title={data.users.title}
-      description={data.users.description}
-      body={data.users.body}
+    <CaseStudyHero
+      title={data.hero.title}
+      body={data.hero.body}
+      image={data.hero.image}
+      imageHeight={600}
+      imageWidth={600}
     />
-    <Role
-      title={data.role.title}
-      description={data.role.description}
-      body={data.role.body}
+    <CaseStudyRole
+      role={data.summary.role}
+      team={data.summary.team}
+      teamSubtitle={data.summary.teamSubtitle}
+      durationDate={data.summary.durationTime}
+      durationTime={data.summary.durationTime}
     />
-    <Constraints
-      title={data.constraints.title}
-      description={data.constraints.description}
-      body={data.constraints.body}
+    <Overview
+      name={data.overview.name}
+      title={data.overview.title}
+      body={data.overview.body}
     />
-    <Empathize
-      title={data.empathize.title}
-      description={data.empathize.description}
-      body={data.empathize.body}
+    <!-- section 1 -->
+    <CaseStudySection
+      image={data.section1.image}
+      title={data.section1.title}
+      body={data.section1.body}
     />
-    <Define description={data.define.description} body={data.define.body} />
-    <Ideate description={data.ideate.description} body={data.ideate.body} />
-    <HighFidelity
-      description={data.highFidelity.description}
-      body={data.highFidelity.body}
+    <!-- section 2 -->
+    <CaseStudySection
+      image={data.section2.image}
+      title={data.section2.title}
+      body={data.section2.body}
     />
-  </section>
-  <ContactButton text="Let's Chat, I'm open for work!" />
-</Layout> -->
+    <!-- section 3 -->
+    <CaseStudySection
+      image={data.section3.image}
+      title={data.section3.title}
+      body={data.section3.body}
+    />
+    <!-- section 4 -->
+    <CaseStudySection
+      image={data.section4.image}
+      title={data.section4.title}
+      body={data.section4.body}
+    />
+    <!-- section 5 -->
+    <CaseStudySection
+      image={data.section5.image}
+      title={data.section5.title}
+      body={data.section5.body}
+    />
+    <!-- section 6 -->
+    <CaseStudySection
+      image={data.section6.image}
+      title={data.section6.title}
+      body={data.section6.body}
+    />
+    <ContactButton text="Let's Chat, I'm open for work!" />
+  </main>
+</Layout>

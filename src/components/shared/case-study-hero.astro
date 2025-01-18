@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets'
-const { title, body, image } = Astro.props
+const { title, body, image, imageHeight, imageWidth } = Astro.props
 ---
 
 <section
@@ -16,8 +16,8 @@ const { title, body, image } = Astro.props
   <Image
     src={image}
     alt="Mi Amor's main items screen"
-    height={300}
-    width={300}
+    height={imageHeight}
+    width={imageWidth}
     loading="lazy"
     class="mx-auto min-[768px]:mx-0 min-[768px]:ml-auto"
   />
