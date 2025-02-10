@@ -12,6 +12,6 @@ export default defineConfig({
     })
   ],
   image: {
-    domains: ['utfs.io']
+    domains: ['uploadthing.com']
   }
 })
