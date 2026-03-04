@@ -13,7 +13,7 @@ const mainNavLinks = [
   },
   {
     name: 'Resume',
-    href: '/chris-harley-resume.pdf'
+    href: '/christopher_harley_resume.pdf'
   }
 ]
 
